@@ -12408,16 +12408,16 @@
 		(uuid "fe6e0d68-41ed-47b6-ac20-c0dbed0bdfe3")
 	)
 	(no_connect
-		(at 134.62 49.53)
-		(uuid "0118b79f-6d0f-401c-ae21-4508761fa8d5")
-	)
-	(no_connect
 		(at 280.67 33.02)
 		(uuid "1ac74b99-e699-46b0-965a-87e182239aa4")
 	)
 	(no_connect
 		(at 260.35 236.22)
 		(uuid "1e241409-4e9f-4410-b16c-1e9afab513f0")
+	)
+	(no_connect
+		(at 134.62 64.77)
+		(uuid "1ef2508d-d4fd-4596-b6be-32f4f95f926c")
 	)
 	(no_connect
 		(at 313.69 71.12)
@@ -12436,10 +12436,6 @@
 		(uuid "4dc16504-b626-495c-a61b-4048f3198abc")
 	)
 	(no_connect
-		(at 134.62 44.45)
-		(uuid "5b523edf-8847-4fd1-af7f-f031348d5f6f")
-	)
-	(no_connect
 		(at 340.36 29.21)
 		(uuid "601b6059-ddd9-430d-bb18-b9ab13ddc6ba")
 	)
@@ -12454,6 +12450,14 @@
 	(no_connect
 		(at 280.67 38.1)
 		(uuid "6f6bc139-e2e6-4b49-9434-12d033293801")
+	)
+	(no_connect
+		(at 160.02 54.61)
+		(uuid "83888efa-0c64-48b9-a27a-01e53e377401")
+	)
+	(no_connect
+		(at 160.02 52.07)
+		(uuid "9fee30bf-9688-40d5-bd27-4ad13cff741d")
 	)
 	(no_connect
 		(at 280.67 35.56)
@@ -12476,8 +12480,8 @@
 		(uuid "c70f0c09-c297-4443-b9da-51e2200b483e")
 	)
 	(no_connect
-		(at 134.62 46.99)
-		(uuid "d1f7a3ba-f60a-4e29-a1a7-225cf557e3c1")
+		(at 134.62 52.07)
+		(uuid "db1f6a7a-5174-43a0-a7d0-ba737228badd")
 	)
 	(no_connect
 		(at 280.67 50.8)
@@ -12508,6 +12512,15 @@
 			(type default)
 		)
 		(uuid "0b37ce89-aebd-433a-b888-7cceec9bc265")
+	)
+	(bus_entry
+		(at 128.27 67.31)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b17cc05-1fa1-4ca2-af1f-2c42e0ba7b96")
 	)
 	(bus_entry
 		(at 118.11 55.88)
@@ -12627,15 +12640,6 @@
 		(uuid "50c19c5e-95e9-4c62-8036-a5a6b50107ad")
 	)
 	(bus_entry
-		(at 128.27 64.77)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50fe632b-8431-431e-9878-1daa2a6f10bb")
-	)
-	(bus_entry
 		(at 128.27 34.29)
 		(size -2.54 2.54)
 		(stroke
@@ -12706,15 +12710,6 @@
 			(type default)
 		)
 		(uuid "889b5439-218b-4614-8ef9-6cdbb1685c92")
-	)
-	(bus_entry
-		(at 128.27 52.07)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960c8769-3b4d-4fa3-beaf-d5905ca51a90")
 	)
 	(bus_entry
 		(at 118.11 50.8)
@@ -12798,13 +12793,13 @@
 		(uuid "e3f3c1c6-9362-41a7-802a-c053dfa49c27")
 	)
 	(bus_entry
-		(at 166.37 54.61)
+		(at 166.37 49.53)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e598482d-95a9-4845-b6ec-f9ab21eae87b")
+		(uuid "e49205ce-f6fc-4bac-9244-5f3223140097")
 	)
 	(bus_entry
 		(at 166.37 62.23)
@@ -12814,6 +12809,15 @@
 			(type default)
 		)
 		(uuid "f0c398a8-e866-4803-a4ff-7cbe54a07953")
+	)
+	(bus_entry
+		(at 128.27 49.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33cf734-278e-45d3-9308-04f10578c86a")
 	)
 	(bus_entry
 		(at 118.11 40.64)
@@ -13173,16 +13177,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 134.62 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7c7f96-acd6-4734-99df-cbcaf56aa2f0")
-	)
-	(wire
-		(pts
 			(xy 280.67 179.07) (xy 280.67 181.61)
 		)
 		(stroke
@@ -13513,16 +13507,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 166.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f9d075-46e2-456e-a3cc-9c33b2ab7823")
-	)
-	(wire
-		(pts
 			(xy 91.44 90.17) (xy 91.44 63.5)
 		)
 		(stroke
@@ -13690,6 +13674,16 @@
 			(type default)
 		)
 		(uuid "46497940-0324-48af-8ca4-d7bd2f1acef7")
+	)
+	(wire
+		(pts
+			(xy 160.02 49.53) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b80662-41a3-4e70-b45c-f69765e7867a")
 	)
 	(wire
 		(pts
@@ -14743,6 +14737,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d766554-4294-49b8-98bc-1c6d632174c1")
+	)
+	(wire
+		(pts
 			(xy 78.74 64.77) (xy 78.74 77.47)
 		)
 		(stroke
@@ -15050,16 +15054,6 @@
 			(type default)
 		)
 		(uuid "b06d34f8-683a-4257-9ac5-629d6d174e74")
-	)
-	(wire
-		(pts
-			(xy 280.67 204.47) (xy 280.67 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b08a2b90-e6a0-4cd5-b358-f5fdf1a5dced")
 	)
 	(wire
 		(pts
@@ -15583,6 +15577,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0538b3f-4ad8-4560-a326-8b46aea2308a")
+	)
+	(wire
+		(pts
 			(xy 104.14 68.58) (xy 118.11 68.58)
 		)
 		(stroke
@@ -15820,16 +15824,6 @@
 			(type default)
 		)
 		(uuid "f0b0b02a-1a70-41dc-9656-e27061d7aca1")
-	)
-	(wire
-		(pts
-			(xy 128.27 52.07) (xy 134.62 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c40f69-e03b-4c53-b8f0-2e492c32e90a")
 	)
 	(wire
 		(pts
@@ -16311,6 +16305,16 @@
 		)
 		(uuid "3313f8c1-8585-48da-92db-6cf6273a5fc8")
 	)
+	(label "VBUS"
+		(at 280.67 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3430b65a-3793-4045-a674-5be798556547")
+	)
 	(label "BAT+"
 		(at 335.28 152.4 180)
 		(effects
@@ -16340,6 +16344,16 @@
 			(justify right bottom)
 		)
 		(uuid "37b82eaf-48dd-4346-b96e-e039481f6d31")
+	)
+	(label "LED20"
+		(at 160.02 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bc39058-2d93-464b-8f77-f4184ec914cf")
 	)
 	(label "SCL"
 		(at 306.07 71.12 270)
@@ -16440,26 +16454,6 @@
 			(justify right bottom)
 		)
 		(uuid "5e49d237-6717-4640-ae45-162bb314ca9e")
-	)
-	(label "LED3"
-		(at 134.62 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "602bdbef-8c8f-4bcd-84bf-d5230b7ef2d2")
-	)
-	(label "LED20"
-		(at 160.02 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "607f9df1-a2e4-4c58-bd91-af47804032a3")
 	)
 	(label "D+"
 		(at 285.75 214.63 0)
@@ -16680,6 +16674,16 @@
 			(justify right bottom)
 		)
 		(uuid "8cd9cb90-b76f-49c9-830d-aea06af5f14d")
+	)
+	(label "LED3"
+		(at 134.62 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cf7fc6c-b28b-4b9b-82d7-cdd9cd42d146")
 	)
 	(label "VDD_nRF"
 		(at 311.15 71.12 270)
@@ -16981,6 +16985,16 @@
 		)
 		(uuid "d269ad35-5aff-4945-aa29-e954a2bf90b1")
 	)
+	(label "LED17"
+		(at 134.62 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d38e1ad8-2109-4851-9b14-4f9cfb6bafbd")
+	)
 	(label "LED8"
 		(at 118.11 45.72 180)
 		(effects
@@ -17190,16 +17204,6 @@
 			(justify right bottom)
 		)
 		(uuid "fb64f352-c513-40e2-b62c-803e685aa91f")
-	)
-	(label "LED17"
-		(at 134.62 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fec8ab22-f6ab-4eb1-8c72-008839ed321f")
 	)
 	(label "SCL"
 		(at 213.36 36.83 270)
@@ -18066,7 +18070,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG120F500NT"
+		(property "Value" "0402CG120J500NT"
 			(at 299.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18088,7 +18092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120R-1-50V_C182477.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C1547.pdf"
 			(at 285.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18109,7 +18113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182477"
+		(property "LCSC Part" "C1547"
 			(at 301.752 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25370,7 +25374,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG120F500NT"
+		(property "Value" "0402CG120J500NT"
 			(at 281.94 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -25392,7 +25396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120R-1-50V_C182477.html"
+		(property "Datasheet" "https://lcsc.com/datasheet/C1547.pdf"
 			(at 295.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -25413,7 +25417,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C182477"
+		(property "LCSC Part" "C1547"
 			(at 279.908 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28515,7 +28519,7 @@
 				)
 			)
 		)
-		(property "LSCS Part" "C7519"
+		(property "LCSC Part" "C7519"
 			(at 280.67 214.63 0)
 			(hide yes)
 			(show_name no)
