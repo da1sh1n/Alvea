@@ -121,7 +121,7 @@
   "project": {
     "files": [
       {
-        "name": "right.kicad_pcb",
+        "name": "right.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
@@ -133,7 +133,7 @@
         }
       },
       {
-        "name": "right.kicad_sch",
+        "name": "right.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,

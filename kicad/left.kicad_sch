@@ -13759,16 +13759,6 @@
 		)
 		(uuid "45078219-f9a3-4b48-bf19-51e5febd965a")
 	)
-	(wire
-		(pts
-			(xy 280.67 204.47) (xy 280.67 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d79886-3cfe-41da-9d35-ffe730790383")
-	)
 	(bus
 		(pts
 			(xy 168.91 52.07) (xy 168.91 57.15)
@@ -16278,6 +16268,16 @@
 			(justify right bottom)
 		)
 		(uuid "20d78149-597f-4538-834e-25e212ca2185")
+	)
+	(label "VBUS"
+		(at 280.67 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21441c92-da7f-4973-b9b0-7f571ce2f944")
 	)
 	(label "D-"
 		(at 275.59 217.17 180)
