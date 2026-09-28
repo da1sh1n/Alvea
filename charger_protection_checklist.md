@@ -24,14 +24,14 @@ Order per board: **schematic → place (remove old, drop in new) → route.** Ri
   - [x] one-LED mode wiring: D1 LED + 100 Ω, D2 via 1 kΩ to BAT+ (p.9); TEST via 1 kΩ to BAT+ (p.2)
   - [x] NTC: 20 µA source, normal window 0.60–1.32 V, must not float (p.8)
   - [x] VIN absolute max 9 V (< 10 µs) / 6.5 V (> 10 µs) (p.3)
-- [ ] Check LCSC stock for IP2312U_VSET (C605432). **Not C605433** (that one is 4.35 V).
+- [x] Check LCSC stock for IP2312U_VSET (C605432). **Not C605433** (that one is 4.35 V). - **C605432**
 - [x] **93.1 kΩ 0.1%** 0402 resistor: Vishay TNPW040293K1BEED, LCSC [C2088785](https://www.lcsc.com/product-detail/C2088785.html) (±25 ppm/°C, in stock)
-  - [ ] Confirm JLC can assemble it (no basic 0.1% option exists; extended is fine)
-- [ ] Pick a 1 kΩ 0402 1% (e.g. JLC basic C11702)
-- [ ] Pick an inductor: 1 µH, saturation ≥ 3 A, DCR ≤ 30 mΩ, shielded, ~4×4 mm
-- [ ] Pick a 22 µF 0805 X5R ≥ 10 V
-- [ ] Pick a 0.5 Ω resistor (0402 or 0603)
-- [ ] Pick a polyfuse: 2 A hold, ≥ 6 V, 1206 or 1210
+  - [x] Confirm JLC can assemble it (no basic 0.1% option exists; extended is fine)
+- [x] Pick a 1 kΩ 0402 1% (e.g. JLC basic C11702) - **C11702**
+- [x] Pick an inductor: 1 µH, saturation ≥ 3 A, DCR ≤ 30 mΩ, shielded, ~4×4 mm - **C2921163**
+- [x] Pick a 22 µF 0805 X5R ≥ 10 V - **C296720**
+- [x] Pick a 0.5 Ω resistor (0402 or 0603) - **C423160**
+- [x] TSV, before polyfuse, to the gnd - **C2990427**
 - [ ] Import the IP2312U footprint and symbol with easyeda2kicad (thermal pad 2.09 × 2.09 mm)
 
 ## 2. Right schematic (`kicad/right.kicad_sch`)

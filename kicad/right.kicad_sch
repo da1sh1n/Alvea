@@ -16895,6 +16895,16 @@
 		)
 		(uuid "ba47c83c-e692-450f-8ab3-33cac015ec36")
 	)
+	(label "DCCH"
+		(at 326.39 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbddbbb5-984b-4158-ab44-abe8a3c7c817")
+	)
 	(label "RESET"
 		(at 340.36 64.77 0)
 		(effects
