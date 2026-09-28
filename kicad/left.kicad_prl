@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -138,11 +138,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -13,
-          "pos_y": -13,
-          "size_x": 3226,
-          "size_y": 1930
+          "maximized": false,
+          "pos_x": 1297,
+          "pos_y": 0,
+          "size_x": 1914,
+          "size_y": 1915
         }
       }
     ]

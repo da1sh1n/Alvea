@@ -30,6 +30,7 @@
       "zones": true
     },
     "visible_items": [
+      "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
@@ -124,11 +125,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -13,
-          "pos_y": -13,
-          "size_x": 3226,
-          "size_y": 1930
+          "maximized": false,
+          "pos_x": -11,
+          "pos_y": 0,
+          "size_x": 1622,
+          "size_y": 1915
         }
       }
     ]
