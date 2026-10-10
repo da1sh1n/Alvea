@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -43,12 +43,13 @@
       "drc_errors",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "drc_exclusions",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000021",
+    "visible_layers": "00000000_00000000_00000000_8a020021",
     "zone_display_mode": 0
   },
   "git": {
@@ -119,7 +120,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "right.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -13,
+          "pos_y": -13,
+          "size_x": 3226,
+          "size_y": 1930
+        }
+      },
+      {
+        "name": "right.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -13,
+          "pos_y": -13,
+          "size_x": 3226,
+          "size_y": 1930
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

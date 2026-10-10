@@ -90,29 +90,29 @@ Order per board: **schematic → place (remove old, drop in new) → route.** Ri
 
 ### Place new
 
-- [ ] Keep the whole charger group away from the antenna end of the module (x ≈ 42–46, y ≈ 78–91) and from X1
-- [ ] IP2312U first, then around it:
-  - [ ] VIN: 2 × 22 µF right at pin 8, snubber (two 0.5 Ω in series + 22 µF) next to them — needs slightly more room than a single resistor would
-  - [ ] 1 µH inductor right next to SW (pin 7)
-  - [ ] BAT: 22 µF and the damping 0.5 Ω + 22 µF right at pin 5 / the inductor output
-  - [ ] ICHG jumper (96.5 kΩ + 102 kΩ, gap-selectable, silkscreen-labeled), NTC network (2 × 102 kΩ in parallel), TEST 1 kΩ, D2 1 kΩ close to their pins
-- [ ] TVS (SMF5.0A) right at the USB-C connector's VBUS/GND pins, before F1
-- [ ] F1 (1.5 A polyfuse) between USB-C and VIN, physically separated from the charger group: leave a copper gap (no pour bridging) between the fuse's local copper and the charger/inductor cluster, with a few GND vias on the charger side tying the local pour to the internal ground plane
-- [ ] Route the single VBUS trace from the merged USB-C VBUS pads to the fuse across that gap at constant width (~1.2 mm), not flared/teardropped into a pour at the crossing
-- [ ] Make sure the two USB-C VBUS pads (0.6 mm each) merge into a properly sized junction (via stitch or small fill) before narrowing into the single 1.2 mm trace toward the fuse
-- [ ] Protection extras near U6: 1 kΩ (VCC, from BAT+), 1 kΩ (VM → GND), 100 nF (VCC → `BAT-`)
-- [ ] Leave room under the IP2312U for 6+ thermal-pad vias
+- [x] Keep the whole charger group away from the antenna end of the module (x ≈ 42–46, y ≈ 78–91) and from X1
+- [x] IP2312U first, then around it:
+  - [x] VIN: 2 × 22 µF right at pin 8, snubber (two 0.5 Ω in series + 22 µF) next to them — needs slightly more room than a single resistor would
+  - [x] 1 µH inductor right next to SW (pin 7)
+  - [x] BAT: 22 µF and the damping 0.5 Ω + 22 µF right at pin 5 / the inductor output
+  - [x] ICHG jumper (96.5 kΩ + 102 kΩ, gap-selectable, silkscreen-labeled), NTC network (2 × 102 kΩ in parallel), TEST 1 kΩ, D2 1 kΩ close to their pins
+- [x] TVS (SMF5.0A) right at the USB-C connector's VBUS/GND pins, before F1
+- [x] F1 (1.5 A polyfuse) between USB-C and VIN, physically separated from the charger group: leave a copper gap (no pour bridging) between the fuse's local copper and the charger/inductor cluster, with a few GND vias on the charger side tying the local pour to the internal ground plane
+- [x] Route the single VBUS trace from the merged USB-C VBUS pads to the fuse across that gap at constant width (~1.2 mm), not flared/teardropped into a pour at the crossing
+- [x] Make sure the two USB-C VBUS pads (0.6 mm each) merge into a properly sized junction (via stitch or small fill) before narrowing into the single 1.2 mm trace toward the fuse
+- [x] Protection extras near U6: 1 kΩ (VCC, from BAT+), 1 kΩ (VM → GND), 100 nF (VCC → `BAT-`)
+- [x] Leave room under the IP2312U for 6+ thermal-pad vias
 
 ## 4. Right PCB — route
 
-- [ ] Power first: VBUS_RAW → F1 → VIN caps → pin 8 (wide)
-- [ ] SW → inductor → BAT+: short and wide; solid GND under the charger
-- [ ] 6+ GND vias in the IP2312U thermal pad; short GND loop from the VIN caps to the pad
-- [ ] `BAT-`: U4 pin 2 → Q2 pin 3, short, ≥ 0.9 mm, **not joined to the GND pour**
-- [ ] Q2 pin 1 → GND with 2–3 vias
-- [ ] Fuse/charger thermal gap: confirm no pour (top layer) bridges across it; GND stays solid one layer down
-- [ ] Small signals: ICHG (both jumper branches), NTC, TEST, D2, U6 VM (via 1 kΩ to GND) / VCC, TVS anode → GND
-- [ ] Refill zones (B)
+- [x] Power first: VBUS_RAW → F1 → VIN caps → pin 8 (wide)
+- [x] SW → inductor → BAT+: short and wide; solid GND under the charger
+- [x] 6+ GND vias in the IP2312U thermal pad; short GND loop from the VIN caps to the pad
+- [x] `BAT-`: U4 pin 2 → Q2 pin 3, short, ≥ 0.9 mm, **not joined to the GND pour**
+- [x] Q2 pin 1 → GND with 2–3 vias
+- [x] Fuse/charger thermal gap: confirm no pour (top layer) bridges across it; GND stays solid one layer down
+- [x] Small signals: ICHG (both jumper branches), NTC, TEST, D2, U6 VM (via 1 kΩ to GND) / VCC, TVS anode → GND
+- [x] Refill zones (B)
 - [ ] Run DRC, no errors
 
 ## 5. Left half (mirrored)
