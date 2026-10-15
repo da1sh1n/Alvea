@@ -76,29 +76,38 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|169965199|53295727|85cc1762-4c3a-4d4a-9f39-559b7821e0ff|e94c2e35-a8ce-417f-8f10-608959bc5a48",
+          ""
+        ],
+        [
+          "courtyards_overlap|40196461|50981634|040a6a53-9d86-4b4e-9d94-601233602766|bec5e4b3-8f6e-4e6f-9e3b-c0685e7baf05",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "ignore",
-        "clearance": "ignore",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "ignore",
+        "duplicate_footprints": "warning",
         "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "warning",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -133,7 +142,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
